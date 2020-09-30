@@ -1,0 +1,24 @@
+---Setup---
+git config --global user.name "USERNAME"
+git config --global user.email "VALID EMAIL"
+git config --global color.ui auto
+
+---Initializing a repository---
+git init
+git clone "GITHUB URL OF REPOSITORY"
+
+---Stage and Commit---
+git status
+git add "NAME OF UNTRACKED FILES"
+git commit -m "MESSAGE"
+
+---Unstage file---
+git reset "NAME OF STAGED FILE"
+
+---Compare and Inspect---
+git log
+git log "BRANCH-A" "BRANCH-B"
+git diff "BRANCH-A" "BRANCH-B"
+
+---Reset to previous Commit---
+git reset --hard "COMMIT ID"
